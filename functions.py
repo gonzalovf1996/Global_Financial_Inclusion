@@ -1,18 +1,11 @@
-
-from pickle import TRUE
 import streamlit as st
-from plotly.offline import init_notebook_mode, iplot, plot
 import plotly.express as px
-import plotly as py
-init_notebook_mode(connected=True)
 import plotly.graph_objs as go
-from sklearn.datasets import load_iris, load_boston
 import matplotlib.pyplot as plt
 import statsmodels.api as sm
 import seaborn as sns
 import pandas as pd
 import numpy as np
-import plotly.express as px
 
 from variables import df, df2017, df2014, df2011
 
